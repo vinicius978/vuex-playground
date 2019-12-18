@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>CodeSandbox Vue</title>
+</head>
+
+<body>
+	<div id="app" class="container">
+		<form class="form-inline">
+			<div class="input-group mb-2 mx-sm-2">
+				<input type="text" class="form-control" :value="count" />
+			</div>
+			<button class="btn btn-primary mb-2" @click.prevent="countDown">-</button>
+			<button class="btn btn-primary mb-2" @click.prevent="countUp">+</button>
+		</form>
+	</div>
+	<!-- built files will be auto injected -->
+</body>
+
+</html>

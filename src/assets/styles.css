@@ -1,0 +1,7 @@
+body {
+  margin: 1rem 0;
+}
+
+.btn+.btn {
+  margin-left: .2rem;
+}
